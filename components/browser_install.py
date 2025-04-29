@@ -10,7 +10,8 @@ WINGET_MAP = {
     "Brave":     "Brave.Brave",
     "Firefox":   "Mozilla.Firefox",
     "Librewolf": "Librewolf.Librewolf",
-    "Edge":      "Microsoft.Edge"
+    "Edge":      "Microsoft.Edge",
+    "OperaGX":   "Opera.OperaGX"
 }
 
 CHOCO_MAP = {
@@ -18,7 +19,8 @@ CHOCO_MAP = {
     "Brave":     "brave",
     "Firefox":   "firefox",
     "Librewolf": "librewolf",
-    "Edge":      "microsoft-edge"
+    "Edge":      "microsoft-edge",
+    "OperaGX":   "opera-gx"
 }
 
 def install_browser(selected_browser: str):
